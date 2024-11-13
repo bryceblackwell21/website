@@ -1,0 +1,32 @@
+What did I accomplish in this project? Permalink
+Utilizing Machine Learning algorithms to understand and evaluate stock position strategies using technical indicators
+
+Data collection and preprocessing of stocks (opening and closing prices, highs and lows)
+Data collection and preprocessing of technical indicators (RSI, NATR, APO, etc.)
+Unsupervised learning using GMM and PCA
+Supervised learning of trading policies with DNNs, CNNs, LSTM, and Random Forest models
+
+
+
+What is query-my-spotify? Permalink
+A web app (powered by a React frontend and Flask backend) that allows users unique ways to interact with their Spotify music library, and Spotify’s entire music catalog as a whole.
+
+The first and primary use case for this app is to be able to help users choose what music they want to listen to based on parameters ranging from very broad to incredibly specific. The data to perform these searches comes from the Spotify Web API, along with (eventually) data analysis and Machine Learning algorithms.
+A research option will allow users to receive some data analysis on tracks, albums, playlists, artists, and more. This can help curious users discover the data behind their music, and also internally help build out the search and discover features of the app during development
+A discover option (coming later) to use machine learning to recommend music to users based on parameters (similar to the search feature but expanding beyond their own library)
+
+
+
+▸Conducted performance and accuracy testing on these neuromorphic approaches, identifying their strengths and limitations in solving complex problems compared to traditional reinforcement learning methods.
+
+
+
+Hi there! I'm a Product Manager at Salesforce, where I channel my skills in business and technology to build solutions that create meaningful user experiences. I graduated from the University of Texas at Austin in 2021 with a degree in Business and Liberal Arts, which gave me a unique perspective on combining analytical and creative thinking. Currently, I'm enhancing my expertise with data analytics skills to drive even more impactful, data-driven decisions.
+
+Outside of work, I'm an avid reader and love spending time outdoors, whether it’s hiking, running, or discovering new trails. I'm always looking to learn and grow—both professionally and personally. Thanks for stopping by my page!
+
+
+
+
+$primary-color: #6190E8;
+$secondary-color: #A7BFE8;
