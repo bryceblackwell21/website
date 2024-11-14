@@ -3,44 +3,30 @@
 #interests {
   background-color: $light-white; /* Matches Projects background */
   color: $dark-blue-text;
-  margin-top: -15rem;
+  padding: 5rem 0rem; /* Uses the default padding for sections */
+  margin-top: -15rem; /* Optional: align with Projects styling */
   padding-top: 15rem;
-  padding-bottom: 15rem;
 
   @include respond(tab-land) {
     margin-top: 0;
     padding-top: 5rem;
   }
 
-  @include respond(phone) {
-    padding-bottom: 1px;
-  }
-
-  .interests-wrapper {
-    margin-bottom: 15rem;
-
-    @include respond(phone) {
-      margin-bottom: 0rem;
-    }
-  }
-
   .section-title {
-    font-weight: bold;
-    font-size: $mid-font-size;
-    margin-bottom: 1.8rem;
-    text-align: center;
+    @extend .section-title; /* Ensures consistent font size and style */
+    font-weight: 700;
     color: $dark-blue-text;
-
-    @include respond(phone) {
-      font-size: 2rem;
-    }
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 4.5rem; /* Matches global .section-title styling */
   }
 
   .section-subtitle {
-    margin-bottom: 1.5rem;
-    text-align: center;
+    font-size: $default-font-size;
     color: $dark-blue-text;
-    font-size: 1.6rem;
+    text-align: center;
+    margin-bottom: 1.5rem;
+    font-weight: 400;
   }
 
   /* Photo Grid Layout */
@@ -62,13 +48,6 @@
     @include respond(phone) {
       box-shadow: none;
       border: 1px solid #d2d2d2;
-    }
-  }
-
-  /* Responsive adjustments for grid on smaller screens */
-  @media (max-width: 768px) {
-    .photo-grid {
-      grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
     }
   }
 }
