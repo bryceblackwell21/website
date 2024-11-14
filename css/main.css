@@ -4,9 +4,10 @@
 #interests {
   padding: 40px 0;
 }
-.section-title {
+
+.section-title, .section-subtitle {
   text-align: center;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 /* Grid Layout */
@@ -21,6 +22,7 @@
   height: auto;
   object-fit: cover;
   border-radius: 8px;
+  transition: transform 0.3s ease; /* Smooth scaling effect */
 }
 
 /* Sizing Variants */
@@ -35,6 +37,12 @@
 
 .photo-grid__item--tall {
   grid-row: span 2;
+}
+
+/* Hover Effect */
+.photo-grid__item:hover {
+  transform: scale(1.1); /* Scale up on hover */
+  z-index: 1; /* Ensure the image appears above others */
 }
 
 /* Responsive Styling */
