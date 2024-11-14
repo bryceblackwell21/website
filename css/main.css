@@ -17,11 +17,11 @@
   margin-bottom: 30px;
 }
 
-/* Grid Layout for 12 Photos */
+/* Grid Layout */
 .photo-grid {
   display: grid;
   gap: 10px;
-  grid-template-columns: repeat(3, 1fr); /* Three columns */
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
 }
 
 .photo-grid__item {
@@ -48,12 +48,6 @@
 /* Responsive Styling */
 @media (max-width: 768px) {
   .photo-grid {
-    grid-template-columns: repeat(2, 1fr); /* Two columns on smaller screens */
-  }
-}
-
-@media (max-width: 480px) {
-  .photo-grid {
-    grid-template-columns: 1fr; /* Single column on very small screens */
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
   }
 }
