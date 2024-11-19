@@ -92,54 +92,5 @@
         }
       }
     }
-  }
-
-  /* Interests Photo Grid Section */
-  .interests-wrapper {
-    margin-bottom: 15rem;
-
-    @include respond(phone) {
-      margin-bottom: 0rem;
-    }
-
-    .section-title {
-      font-weight: bold;
-      font-size: $mid-font-size;
-      margin-bottom: 1.8rem;
-      text-align: center;
-
-      @include respond(phone) {
-        font-size: 2rem;
-      }
-    }
-
-    .section-subtitle {
-      font-size: $default-font-size;
-      color: $dark-blue-text;
-      text-align: center;
-      margin-bottom: 1.5rem;
-    }
-
-    .photo-grid {
-      display: grid;
-      gap: 10px;
-      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-      justify-content: center;
-      margin-top: 2rem;
-    }
-
-    .photo-grid__item {
-      width: 100%;
-      aspect-ratio: 1;
-      object-fit: cover;
-      border-radius: 2px;
-      box-shadow: 8px 8px 9px 7px rgba(174, 174, 192, 0.4),
-        -5px -5px 15px 7px #ffffff;
-
-      @include respond(phone) {
-        box-shadow: none;
-        border: 1px solid #d2d2d2;
-      }
-    }
-  }
+  } 
 }
